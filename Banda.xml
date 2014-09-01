@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<bandas>
+<banda>
+	<nombre>Metallica</nombre>
+	<nacionalidad>Estados_Unidos</nacionalidad>
+	<estado>activo</estado>
+	<ano>1981</ano>
+	<genero>Heavy_metal</genero>
+	<integrante>James_Hetfield</integrante>
+	<album>Kill_'Em_All</album>
+	<sitio_web>http://www.metallica.com</sitio_web>
+	<foto>metallica.jpg</foto>
+</banda>
+<banda>
+	<nombre>Megadeth</nombre>
+	<nacionalidad>Estados_Unidos</nacionalidad>
+	<estado>activo</estado>
+	<ano>1983</ano>
+	<genero>Thrash_metal</genero>
+	<integrante>Dave_Mustaine</integrante>
+	<album>Super_Collider</album>
+	<sitio_web>http://www.megadeth.com/</sitio_web>
+	<foto>megadeth.jpg</foto>
+</banda>
+<banda>
+	<nombre>Anthrax</nombre>
+	<nacionalidad>Estados_Unidos</nacionalidad>
+	<estado>activo</estado>
+	<ano>1981</ano>
+	<genero>Heavy_metal</genero>
+	<integrante>Joey_Belladonna</integrante>
+	<album>Among_The_Living</album>			
+	<cancion>Among_the_Living</cancion>	
+	<sitio_web>http://anthrax.com/</sitio_web>
+	<foto>anthrax.jpg</foto>
+</banda>
+<banda>
+	<nombre>Slayer</nombre>
+	<nacionalidad>Estados_Unidos</nacionalidad>
+	<estado>activo</estado>
+	<ano>1982</ano>
+	<genero>Thrash_metal</genero>	
+	<integrante>Gary_Holt</integrante>		
+	<albun>Seasons_in_the_Abyss</albun>
+	<cancion>War_Ensemble</cancion>
+	<sitio_web>http://www.slayer.net/us/implode/</sitio_web>
+	<foto>slayer.jpg</foto>
+</banda>
+</bandas>
