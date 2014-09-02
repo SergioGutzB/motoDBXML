@@ -1,48 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <bandas>
-<banda>
-	<nombre>Metallica</nombre>
-	<nacionalidad>Estados_Unidos</nacionalidad>
+<banda nombre="Metallica">
+	<nacionalidad>Estados Unidos</nacionalidad>
 	<estado>activo</estado>
 	<ano>1981</ano>
-	<genero>Heavy_metal</genero>
-	<integrante>James_Hetfield</integrante>
-	<album>Kill_'Em_All</album>
+	<generos>
+		<genero nombre="Heavy metal"></genero>
+		<genero nombre="Thrash metal"></genero>
+		<genero nombre="Speed metal"></genero>
+		<genero nombre="Hard rock"></genero>
+	</generos>	
+	<integrantes>
+		<integrante nombre="James Hetfield" nacimiento="3 de agosto de 1963" nacionalidad="Estados Unidos" instrumento="Guitarra"></integrante>
+		<integrante nombre="Lars Ulrich" nacimiento="26 de diciembre de 1963" nacionalidad="Dinamarca" instrumento="Batería"></integrante>
+		<integrante nombre="Kirk Hammett" nacimiento="18 de noviembre de 1962" nacionalidad="Estados Unidos" instrumento="Guitarra"></integrante>
+		<integrante nombre="Robert Trujillo" nacimiento="23 de octubre de 1964" nacionalidad="Estados Unidos" instrumento="Bajo"></integrante>
+	</integrantes>
+	<albunes>
+		<album ano="25 de julio de 1983" titulo="Kill 'Em All">
+			<canciones>
+				<cancion titulo="Hit the Lights" escritores="James Hetfield, Lars Ulrich" duracion="4:15"></cancion>
+				<cancion titulo="The Four Horsemen" escritores="James Hetfield, Lars Ulrich, Dave MustaineKirk Hammett" duracion="7:10"></cancion>
+				<cancion titulo="Motorbreath" escritores="James Hetfield" duracion="3:05"></cancion>
+			</canciones>
+		</album>
+		<album ano="25 de julio de 1983" titulo="Kill 'Em All">
+			<canciones>
+				<cancion titulo="Hit the Lights" escritores="James Hetfield, Lars Ulrich" duracion="4:15"></cancion>
+				<cancion titulo="The Four Horsemen" escritores="James Hetfield, Lars Ulrich, Dave MustaineKirk Hammett" duracion="7:10"></cancion>
+				<cancion titulo="Motorbreath" escritores="James Hetfield" duracion="3:05"></cancion>
+			</canciones>
+		</album>
+	</albunes>
 	<sitio_web>http://www.metallica.com</sitio_web>
 	<foto>metallica.jpg</foto>
 </banda>
-<banda>
-	<nombre>Megadeth</nombre>
-	<nacionalidad>Estados_Unidos</nacionalidad>
+<banda nombre="Megadeth">
+	<nacionalidad>Estados Unidos</nacionalidad>
 	<estado>activo</estado>
 	<ano>1983</ano>
-	<genero>Thrash_metal</genero>
-	<integrante>Dave_Mustaine</integrante>
-	<album>Super_Collider</album>
+	<generos>
+		<genero nombre="Heavy metal"></genero>
+		<genero nombre="Thrash metal"></genero>
+		<genero nombre="Speed metal"></genero>
+		<genero nombre="Metal Progresivo"></genero>
+	</generos>	
+	<integrantes>
+		<integrante nombre="Dave Mustaine" nacimiento="13 de septiembre de 1961" nacionalidad="Estados Unidos" instrumento="Voz"></integrante>
+		<integrante nombre="David Ellefson" nacimiento="12 de noviembre de 1964" nacionalidad="Estados Unidos" instrumento="Bajo"></integrante>
+		<integrante nombre="Chris Broderick" nacimiento="6 de marzo de 1970" nacionalidad="Estados Unidos" instrumento="Guitarra"></integrante>
+		<integrante nombre="Shawn Drover" nacimiento="5 de mayo de 1966" nacionalidad="Canada" instrumento="Bateria"></integrante>
+	</integrantes>
+	<albunes>
+		<album ano="4 de Junio de 2013" titulo="Super Collider">
+			<canciones>
+				<cancion titulo="Kingmaker" escritores="Dave Mustaine, David Ellefson" duracion="4:16"></cancion>
+				<cancion titulo="Super Collider" escritores="Dave Mustaine" duracion="4:11"></cancion>
+				<cancion titulo="Burn!" escritores="Dave Mustaine" duracion="4:11"></cancion>
+			</canciones>
+		</album>
+	</albunes>
 	<sitio_web>http://www.megadeth.com/</sitio_web>
 	<foto>megadeth.jpg</foto>
 </banda>
-<banda>
-	<nombre>Anthrax</nombre>
-	<nacionalidad>Estados_Unidos</nacionalidad>
+<banda nombre="Anthrax"> 
+	<nacionalidad>Estados Unidos</nacionalidad>
 	<estado>activo</estado>
 	<ano>1981</ano>
-	<genero>Heavy_metal</genero>
-	<integrante>Joey_Belladonna</integrante>
-	<album>Among_The_Living</album>			
-	<cancion>Among_the_Living</cancion>	
+	<generos>
+		<genero nombre="Heavy metal"></genero>
+		<genero nombre="Thrash metal"></genero>
+		<genero nombre="Speed metal"></genero>
+		<genero nombre="Groove metal"></genero>
+	</generos>	
+	<integrantes>
+		<integrante nombre="Joey Belladonna" nacimiento="13 de Octubre de 1960" nacionalidad="Estados Unidos" instrumento="Voz"></integrante>
+		<integrante nombre="Charlie Benante" nacimiento="27 de Noviembre de 1962" nacionalidad="Estados Unidos" instrumento="Batería"></integrante>
+		<integrante nombre="Scott Ian" nacimiento="31 de diciembre 1963" nacionalidad="Estados Unidos" instrumento="Guitarra"></integrante>
+		<integrante nombre="Frank Bello" nacimiento="9 de julio de 1965" nacionalidad="Estados Unidos" instrumento="Bajo"></integrante>
+	</integrantes>
+	<albunes>
+		<album ano="22 de marzo de 1987" titulo="Among The Living ">
+			<canciones>
+				<cancion titulo="Among the Living" escritores="Joey Belladonna-Dan Spitz - Scott Ian - Frank Bello - Charlie Benante - Danny Lilke" duracion="5:16"></cancion>
+				<cancion titulo="I Am the Law" escritores="Joey Belladonna-Dan Spitz - Scott Ian - Frank Bello - Charlie Benante - Danny Lilke" duracion="5:53"></cancion>
+				<cancion titulo="Caught in a mosh" escritores="Joey Belladonna-Dan Spitz - Scott Ian - Frank Bello - Charlie Benante - Danny Lilke	" duracion="4:59"></cancion>
+			</canciones>
+		</album>
+	</albunes>
 	<sitio_web>http://anthrax.com/</sitio_web>
 	<foto>anthrax.jpg</foto>
 </banda>
-<banda>
-	<nombre>Slayer</nombre>
-	<nacionalidad>Estados_Unidos</nacionalidad>
+<banda nombre="Slayer">
+	<nacionalidad>Estados Unidos</nacionalidad>
 	<estado>activo</estado>
 	<ano>1982</ano>
-	<genero>Thrash_metal</genero>	
-	<integrante>Gary_Holt</integrante>		
-	<albun>Seasons_in_the_Abyss</albun>
-	<cancion>War_Ensemble</cancion>
+	<generos>		
+		<genero nombre="Thrash metal"></genero>		
+	</generos>	
+	<integrantes>
+		<integrante nombre="Gary Holt" nacimiento="	4 de mayo de 1964" nacionalidad="Estados Unidos" instrumento="Guitarra"></integrante>
+		<integrante nombre="Paul Bostaph" nacimiento="6 de marzo de 1964" nacionalidad="Estados Unidos" instrumento="Batería"></integrante>
+		<integrante nombre="Kerry Ray King" nacimiento="3 de junio de 1964" nacionalidad="Estados Unidos" instrumento="Guitarra"></integrante>
+		<integrante nombre="Tom Araya" nacimiento="	6 de junio de 1961" nacionalidad="Chile" instrumento="Bajo y voz"></integrante>
+	</integrantes>
+	<albunes>
+		<album ano="9 de octubre de 1990" titulo="Seasons in the Abyss">
+			<canciones>
+				<cancion titulo="War Ensemble" escritores="JTom Araya, Jeff Hanneman" duracion="4:54"></cancion>
+				<cancion titulo="Blood Red" escritores="Araya" duracion="2:50"></cancion>
+				<cancion titulo="Seasons in the Abyss" escritores="Araya" duracion="6:36"></cancion>
+			</canciones>
+		</album>
+	</albunes>
 	<sitio_web>http://www.slayer.net/us/implode/</sitio_web>
 	<foto>slayer.jpg</foto>
 </banda>
